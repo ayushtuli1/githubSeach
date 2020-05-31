@@ -16,3 +16,8 @@ Enter filter keyword and show substring matches
 Clear filter keyword
 
 Highlight matched substring
+
+# To Run In Local
+npm install
+npm run start-app
+
