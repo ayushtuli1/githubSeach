@@ -5,9 +5,6 @@ import Home from "../RootComponents/Home/Home.component";
 import history from "./app.history";
 
 export default class App extends Component {
-  componentDidMount() {
- 
-  }
   render() {
     return (
       <div>
