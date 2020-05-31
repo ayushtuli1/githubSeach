@@ -3,7 +3,7 @@ import './Home.style.less';
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
-import spinner from "../../assets/images/Spinner.svg"
+import spinner from "../../assets/images/spinner.svg"
 
 const strings={
   CLEAR:"Clear",
