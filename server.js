@@ -17,6 +17,6 @@ app.get("/*", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(config.PORT || 8080, () =>
-  console.log(`app listening on port ${config.PORT}!`)
-);
+app.listen(process.env.PORT || 5000, () =>
+  console.log(`app listening on port ${process.env.PORT || 5000}!`)
+); 
